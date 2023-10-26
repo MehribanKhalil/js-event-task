@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Contact Page</title>
+</head>
+<body>
+
+   <div class="container">
+
+    <h1>Contact Us</h1>
+
+
+        <form action=""  id="form">
+
+            <div class="input-box">
+                <label for="firstName">FirstName:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter your name">
+            </div>
+           
+            <div class="input-box">
+                <label for="lastName">LastName:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Enter your last name">
+            </div>
+            
+            <div class="input-box">
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter your age">
+            </div>
+            
+            <div class="input-checkbox">
+                <label for="isMarried">Married?</label>
+                <input type="checkbox" name="isMarried" id="isMarried"> 
+            </div>
+            
+            <div>
+                <button class="submit_btn" type="submit" id="submitBtn">Add</button>
+
+            </div>
+
+        </form>
+
+        <table id="contact_table">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Age</th>
+                    <th>Married</th>
+                </tr>
+            </thead>
+            <tbody> </tbody>
+        </table>
+   </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
